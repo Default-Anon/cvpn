@@ -11,6 +11,8 @@
 ### dd if=/dev/urandom of=vpn.key count=1 bs=32
 ### base64 < vpn.key (copy output after this command)
 ### launch with root privileges (Tunnel only work with root)
+### i advice you to launch it with nohup
+### run: sudo nohup ./vpn & 
 
 # Client
 ### apt install gcc net-tools libssl-dev git
